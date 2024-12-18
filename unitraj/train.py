@@ -10,8 +10,8 @@ from utils.utils import set_seed, find_latest_checkpoint
 from pytorch_lightning.callbacks import ModelCheckpoint  # Import ModelCheckpoint
 import hydra
 from omegaconf import OmegaConf
-import os
-
+import os,sys
+ 
 
 @hydra.main(version_base=None, config_path="configs", config_name="config")
 def train(cfg):
@@ -68,4 +68,5 @@ def train(cfg):
 
 
 if __name__ == '__main__':
+   # print(sys.path)
     train()

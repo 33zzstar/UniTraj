@@ -6,7 +6,16 @@ from multiprocessing import Pool
 import h5py
 import numpy as np
 import torch
+import os,sys 
+parentdir = '/home/zzs/metadrive/'
+
+sys.path.insert(0,parentdir) 
+
+
 from metadrive.scenario.scenario_description import MetaDriveType
+parentdir = '/home/zzs/metadrive/scenarionet'
+
+sys.path.insert(0,parentdir) 
 from scenarionet.common_utils import read_scenario, read_dataset_summary
 from torch.utils.data import Dataset
 from tqdm import tqdm

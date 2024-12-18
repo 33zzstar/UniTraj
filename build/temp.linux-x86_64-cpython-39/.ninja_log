@@ -1,0 +1,11 @@
+# ninja log v5
+1	6011	1734428791454918360	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/knn/src/knn.o	350761f9d66b1755
+1	13792	1734428799235797929	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/knn/src/knn_api.o	45605058138f135a
+1	18949	1734428804386718203	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/knn/src/knn_gpu.o	f1ffda4b718de51d
+4	860	1734428805608699290	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/attention/src/attention_weight_computation_kernel_v2.o	bd2ef95bd6f1c1b3
+3	933	1734428805681698160	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/attention/src/attention_value_computation_kernel_v2.o	b21277865bcc6dd6
+3	13147	1734428817891509178	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/attention/src/attention_func_v2.o	5dae43e9987e250b
+3	13600	1734428818344502166	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/attention/src/attention_api.o	b49cfaf000e22b58
+3	14355	1734428819099490481	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/attention/src/attention_func.o	f5466a85d936dd0c
+3	19382	1734428824121412752	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/attention/src/attention_weight_computation_kernel.o	6f09ff1659650ca1
+3	19637	1734428824375408820	/home/zzs/UniTraj/build/temp.linux-x86_64-cpython-39/unitraj/models/mtr/ops/attention/src/attention_value_computation_kernel.o	94ee23df9e58ec78
